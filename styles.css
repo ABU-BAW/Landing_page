@@ -1,0 +1,176 @@
+body
+{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+
+.header,.footer
+{
+    background-color: #1F2937;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    Gap:100px;
+    padding-bottom:180px;
+}
+.head-content{
+    height:50px;
+    width:300px;
+    margin-bottom:250px;
+}
+.logo{
+    margin-bottom:120px;
+}
+.second-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:100px;
+}
+.second-section,.fourth-section
+{
+    background-color:white;
+}
+
+.third-section
+{
+    background-color:#E5E7EB;
+    display:flex;
+    justify-content:center;
+    padding:250px;
+}
+.third-section div{
+    height:150px;
+    width: 750px;
+}
+em{
+    font-size:36px;
+    color:#1F2937;
+}
+#ref{
+    text-align:right;
+    margin-top:10px;
+    font-weight:bold;
+    font-size:24px;
+}
+.fourth-section
+{
+    display:flex;
+    padding:100px;
+    justify-content:center;
+
+}
+.image
+{
+    height:300px;
+    width:700px;
+    background:#808080;
+    margin-top:120px;
+    text-align:center;
+}
+.txt{
+    font-size:18px;
+    color:#E5E7EB;
+    
+}
+#clk
+{
+    margin-top:16px;
+}
+h3
+{
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+    gap:40px;
+    font-weight:bold;
+    font-size:24px;
+}
+
+a{
+    text-decoration:none;
+    color:#E5E7EB;
+    font-size:18px;
+}
+
+.h1
+{
+    font-size:48px;
+    font-weight:900px;
+    color:#F9FAF8;
+}
+h2
+{
+    color:#1F2937;
+    font-size:36px;
+    font-weight:900px;
+}
+button,.fourth-section div{
+    background-color:#3882F6;
+    color:white;
+    
+}
+button{
+    height:45px;
+    width:150px;
+    border-radius:10px;
+    font-size:24px;
+    font-weight:bold;
+}
+
+#press{
+    border:2px solid white;
+}
+.box{
+    height:200px;
+    width:1000px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.card
+{
+    
+    border:3px solid #3882F6;
+    border-radius:20px;
+    margin-bottom:8px;
+}
+.containers
+{
+   display:flex;
+   gap:40px;
+
+}
+.info,.card
+{
+    height:200px;
+    width:200px;
+}
+.footer
+{
+   display:flex;
+   justify-content:center;
+   color:white;
+   flex-shrink:0;
+   padding-top:40px;
+    padding-bottom:40px;
+}
+.footer div{
+    font-weight:200;
+    font-size:25px;
+}
+.right-items{
+    margin-left:70px;
+}
