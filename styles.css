@@ -74,6 +74,7 @@ em{
     background:#808080;
     margin-top:120px;
     text-align:center;
+    border-radius: 20px;
 }
 .txt{
     font-size:18px;
@@ -130,7 +131,7 @@ button{
     font-weight:bold;
 }
 
-#press{
+#press,.image{
     border:2px solid white;
 }
 .box{
@@ -154,7 +155,7 @@ button{
    gap:40px;
 
 }
-.info,.card
+.info,.card,img
 {
     height:200px;
     width:200px;
@@ -172,6 +173,12 @@ button{
     font-weight:200;
     font-size:25px;
 }
-/*.right-items{
-    margin-left:70px;
+img{
+
+    border-radius:20px;
+}
+#special
+{
+    height:300px;
+    width:600px;
 }
